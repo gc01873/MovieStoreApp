@@ -1,0 +1,10 @@
+/Users/gregorycooper/Projects/MovieStoreApp/MovieStoreApp.Core/bin/Debug/netcoreapp3.1/MovieStoreApp.Core.deps.json
+/Users/gregorycooper/Projects/MovieStoreApp/MovieStoreApp.Core/bin/Debug/netcoreapp3.1/MovieStoreApp.Core.dll
+/Users/gregorycooper/Projects/MovieStoreApp/MovieStoreApp.Core/bin/Debug/netcoreapp3.1/MovieStoreApp.Core.pdb
+/Users/gregorycooper/Projects/MovieStoreApp/MovieStoreApp.Core/obj/Debug/netcoreapp3.1/MovieStoreApp.Core.csproj.AssemblyReference.cache
+/Users/gregorycooper/Projects/MovieStoreApp/MovieStoreApp.Core/obj/Debug/netcoreapp3.1/MovieStoreApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gregorycooper/Projects/MovieStoreApp/MovieStoreApp.Core/obj/Debug/netcoreapp3.1/MovieStoreApp.Core.AssemblyInfoInputs.cache
+/Users/gregorycooper/Projects/MovieStoreApp/MovieStoreApp.Core/obj/Debug/netcoreapp3.1/MovieStoreApp.Core.AssemblyInfo.cs
+/Users/gregorycooper/Projects/MovieStoreApp/MovieStoreApp.Core/obj/Debug/netcoreapp3.1/MovieStoreApp.Core.csproj.CoreCompileInputs.cache
+/Users/gregorycooper/Projects/MovieStoreApp/MovieStoreApp.Core/obj/Debug/netcoreapp3.1/MovieStoreApp.Core.dll
+/Users/gregorycooper/Projects/MovieStoreApp/MovieStoreApp.Core/obj/Debug/netcoreapp3.1/MovieStoreApp.Core.pdb
