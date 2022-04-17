@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MovieStoreApp.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/MovieStoreApp.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MovieStoreApp.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MovieStoreApp.Core/1.0.0": {
+      "type": "project",
+      "path": "../MovieStoreApp.Core/MovieStoreApp.Core.csproj",
+      "msbuildProject": "../MovieStoreApp.Core/MovieStoreApp.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "MovieStoreApp.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/gregorycooper/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/gregorycooper/Projects/MovieStoreApp/MovieStoreApp.Infrastructure/MovieStoreApp.Infrastructure.csproj",
+      "projectName": "MovieStoreApp.Infrastructure",
+      "projectPath": "/Users/gregorycooper/Projects/MovieStoreApp/MovieStoreApp.Infrastructure/MovieStoreApp.Infrastructure.csproj",
+      "packagesPath": "/Users/gregorycooper/.nuget/packages/",
+      "outputPath": "/Users/gregorycooper/Projects/MovieStoreApp/MovieStoreApp.Infrastructure/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/gregorycooper/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "/Users/gregorycooper/Projects/MovieStoreApp/MovieStoreApp.Core/MovieStoreApp.Core.csproj": {
+              "projectPath": "/Users/gregorycooper/Projects/MovieStoreApp/MovieStoreApp.Core/MovieStoreApp.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
