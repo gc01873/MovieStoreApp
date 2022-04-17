@@ -1,0 +1,29 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model List<MovieModel>
+
+
+<h2>All Movies </h2>
+<hr />
+<h6><a asp-controller="Movie" asp-action="Create">Add New Movie</a></h6>
+<div class="row">
+    
+
+        @foreach (var m in Model)
+        {
+    <div class="col-4">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="@m.PosterUrl" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">@m.Title</h5>
+                <p class="card-text">@m.Description</p>
+                <a asp-controller="Movie" asp-action="Detail" asp-route-id="@m.Id" class="btn btn-primary">More Details</a>
+            </div>
+        </div>
+    </div>
+        }
+</div>
